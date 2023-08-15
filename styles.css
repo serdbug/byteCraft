@@ -59,3 +59,23 @@ section{
 section:nth-child(odd){
   background: #313131;
 }
+
+.form-label{
+  color: rgb(17, 19, 18);
+}
+
+.mi-boton-personalizado {
+  background-color:  rgb(4, 243, 4); /* Cambia este valor al color que desees */
+  border-color:  rgb(4, 243, 4); /* Cambia este valor al color que desees */
+  border-radius: 20px;
+  color: rgb(17, 19, 18); /* Cambia este valor al color que desees */
+}
+
+.sectionContacto{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background: #2a2a2a;
+}
