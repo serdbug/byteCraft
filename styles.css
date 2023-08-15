@@ -79,3 +79,12 @@ section:nth-child(odd){
   align-items: center;
   background: #2a2a2a;
 }
+
+.logoInicio{
+  font-size: 140px;
+  
+
+  color: rgb(4, 243, 4);
+  text-decoration: none;
+  font-weight: 600;
+}
