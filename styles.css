@@ -99,3 +99,7 @@ section:nth-child(odd){
     font-size: 60px; /* Ajusta el tamaño del texto para dispositivos aún más pequeños */
   }
 }
+
+.github{
+  margin:0;
+}
