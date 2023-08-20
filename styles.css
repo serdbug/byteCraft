@@ -81,10 +81,25 @@ section:nth-child(odd){
 }
 
 .logoInicio{
-  font-size: 140px;
-  
-
+  /* font-size: 15vw; */
+  font-size: 100px;
   color: rgb(4, 243, 4);
-  text-decoration: none;
-  font-weight: 600;
+  text-align: center; 
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .logoInicio {
+    font-size: 80px; /* Ajusta el tamaño del texto para dispositivos más pequeños */
+  }
+}
+
+@media (max-width: 480px) {
+  .logoInicio {
+    font-size: 60px; /* Ajusta el tamaño del texto para dispositivos aún más pequeños */
+  }
+}
+
+.github{
+  margin:0;
 }
